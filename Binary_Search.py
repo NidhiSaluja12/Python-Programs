@@ -18,6 +18,7 @@ def Binary_search(item, list1):
 
     return -1
 
+
 list1 = [1,2,3,4,5,6]
 item = 4
 res  = Binary_search(item,list1)
