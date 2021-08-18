@@ -1,27 +1,14 @@
-#!/bin/python3
-
 import math
 import os
 import random
 import re
 import sys
 
-#
-# Complete the 'countApplesAndOranges' function below.
-#
-# The function accepts following parameters:
-#  1. INTEGER s
-#  2. INTEGER t
-#  3. INTEGER a
-#  4. INTEGER b
-#  5. INTEGER_ARRAY apples
-#  6. INTEGER_ARRAY oranges
-#
 
 def countApplesAndOranges(s, t, a, b, apples, oranges):
     print(sum([1 for x in apples if (x + a) >= s and (x + a) <= t]))
     print(sum([1 for x in oranges if (x + b) >= s and (x + b) <= t]))
-    # Write your code here
+   
 
 if __name__ == '__main__':
     first_multiple_input = input().rstrip().split()
