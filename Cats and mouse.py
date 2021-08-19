@@ -8,12 +8,16 @@ import sys
 
 
 def catAndMouse(x, y, z):
+    
     catA = abs(z-x)
     catB = abs(z-y)
+    
     if catA>catB:
         return "Cat B"
+    
     elif catB>catA:
         return "Cat A"
+    
     elif catA==catB:
         return "Mouse C"
 
