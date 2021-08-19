@@ -8,15 +8,18 @@ import sys
 
 
 def climbingLeaderboard(ranked, player):
+    
     ranked = sorted(list(set(ranked)),reverse=True)
     player.sort(reverse = True)
     result = []
     j = 0
     l = len(ranked)
+    
     for i in range(len(player)):
         while j < l and player[i] < ranked[j]:
             j+=1
         result.append(j+1)
+        
     return result[::-1]
             
  
