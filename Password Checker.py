@@ -1,9 +1,12 @@
 def CheckPassword(str, n):
+    
     output = 0
     num = 0
     cap = 0
+    
     if n < 4:
         output = 0
+        
     if str[0].isdigit():
         output = 0
 
@@ -14,9 +17,9 @@ def CheckPassword(str, n):
             num += 1
         if i.isupper():
             cap += 1
+    
     if cap >= 1 and num >= 1:
         output = 1
-
 
     return output
 
