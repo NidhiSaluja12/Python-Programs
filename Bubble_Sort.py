@@ -1,5 +1,7 @@
 N = int(input("Enter the number number of elements of list:\n"))
+
 print("Enter the elements:\n")
+
 list1 = []
 for n in range(0,N):
     elements=int(input())
