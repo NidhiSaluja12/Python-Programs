@@ -1,21 +1,15 @@
-#!/bin/python3
+'''
+Sample Input 0
+20 3 6 80
+Sample Output 0
+6
+'''
 
 import math
 import os
 import random
 import re
 import sys
-
-#
-# Complete the 'howManyGames' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts following parameters:
-#  1. INTEGER p
-#  2. INTEGER d
-#  3. INTEGER m
-#  4. INTEGER s
-#
 
 def howManyGames(p, d, m, s):
     games = 0
@@ -24,8 +18,7 @@ def howManyGames(p, d, m, s):
         p = max(p-d, m)
         games+=1
     return games-1
-    # Return the number of games you can buy
-
+   
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
