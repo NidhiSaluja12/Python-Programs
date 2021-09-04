@@ -1,4 +1,19 @@
-#!/bin/python3
+'''Sample Input
+
+STDIN       Function
+-----       --------
+6 3         n = 6, k = 3
+5 1         contests = [[5, 1], [2, 1], [1, 1], [8, 1], [10, 0], [5, 0]]
+2 1
+1 1
+8 1
+10 0
+5 0
+
+Sample Output
+29'''
+
+
 
 import math
 import os
@@ -6,14 +21,6 @@ import random
 import re
 import sys
 
-#
-# Complete the 'luckBalance' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts following parameters:
-#  1. INTEGER k
-#  2. 2D_INTEGER_ARRAY contests
-#
 
 def luckBalance(k, contests):
     
@@ -31,12 +38,6 @@ def luckBalance(k, contests):
 
     return luck
                 
-                
-    
-    
-    #return luck_balance
-    # Write your code here
-
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
