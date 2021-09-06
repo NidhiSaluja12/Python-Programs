@@ -1,4 +1,5 @@
 def sumZero(array, size):
+    
     count = 0
 
     for i in range(size):
