@@ -6,6 +6,7 @@ def Fibonacci_Series(n):
 
     if n<0:
         print("Enter only positive integers!")
+        
     elif n==0:
         print(f"Fibonacci series till {n} position is {F1}")
 
