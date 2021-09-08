@@ -3,6 +3,7 @@ def Fibonacci_Series(n):
     F1 = 0
     F2 = 1
     count = 0
+    
 
     if n<0:
         print("Enter only positive integers!")
@@ -18,6 +19,7 @@ def Fibonacci_Series(n):
             F1 = F2
             F2 = F
             count += 1
+            
 
 n = int(input("Enter the number of elements:\n"))
 Fibonacci_Series(n)
