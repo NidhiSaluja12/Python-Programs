@@ -5,6 +5,7 @@ import re
 import sys
 
 def hackerrankInString(s):
+    
     hack = 'hackerrank'
     j = 0
     
@@ -15,6 +16,7 @@ def hackerrankInString(s):
             return "YES"
     
     return "NO"
+
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
 
