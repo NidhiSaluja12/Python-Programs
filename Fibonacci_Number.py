@@ -2,6 +2,7 @@ def Fibonacci_Number(n):
 
     F1 = 0
     F2 = 1
+    
 
     if n==0:
         return 0
@@ -16,6 +17,7 @@ def Fibonacci_Number(n):
             F1 = F2
             F2 = F
         return F2
+    
 
 n = int(input("Enter the position:\n"))
 print(f"The fibonacci number at position {n} is:")
