@@ -1,5 +1,4 @@
 def findCount(array, number, difference):
-    
     output = 0
     
     
