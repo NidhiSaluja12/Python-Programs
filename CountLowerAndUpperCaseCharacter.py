@@ -4,8 +4,10 @@ u = 0
 l = 0
 
 for i in str:
+    
     if i.islower() == True:
         l+=1
+        
     if i.isupper()==True:
         u+=1
 
