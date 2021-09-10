@@ -1,4 +1,4 @@
-list1 = [23, 43, 2, 65, 45]
+list1 = list(map(int, input().split()))
 n=len(list1)
 
 for i in range (n):
