@@ -1,5 +1,7 @@
 def miniMaxSum(arr):
+    
     res = []
+    
     for i in range(len(arr)):
         sum1 = sum(arr)-arr[i]
         res.append(sum1)
