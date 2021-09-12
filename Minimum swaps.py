@@ -1,17 +1,15 @@
-#!/bin/python3
-
 import math
 import os
 import random
 import re
 import sys
 
-# Complete the minimumSwaps function below.
 def minimumSwaps(arr):
     
     count =0
     length = len(arr)
     i = 0
+    
     while i<length:
         index = arr[i]-1
         if arr[i]!=arr[index]:
@@ -19,6 +17,7 @@ def minimumSwaps(arr):
             count+=1
         else:
             i+=1
+            
     return count
         
 
