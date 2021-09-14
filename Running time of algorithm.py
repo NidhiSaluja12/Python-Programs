@@ -1,19 +1,11 @@
-#!/bin/python3
-
 import math
 import os
 import random
 import re
 import sys
 
-#
-# Complete the 'runningTime' function below.
-#
-# The function is expected to return an INTEGER.
-# The function accepts INTEGER_ARRAY arr as parameter.
-#
-
 def runningTime(arr):
+    
     count = 0
     for i in range(len(arr)):
         j = i-1
@@ -24,9 +16,9 @@ def runningTime(arr):
             j-=1
             count+=1
         arr[j+1] = key
+        
     return count
         
-    # Write your code here
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
