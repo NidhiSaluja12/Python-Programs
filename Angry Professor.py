@@ -6,13 +6,16 @@ import sys
 
 
 def angryProfessor(k, a):
+    
     arrival_on_time = 0
     arrival_late = 0
+    
     for i in range (len(a)):
         if a[i] <= 0:
             arrival_on_time += 1
         elif a[i] > 0:
             arrival_late += 1
+            
     if arrival_on_time < k:
         return "YES"
     else:
