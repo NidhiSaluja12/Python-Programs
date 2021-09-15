@@ -7,4 +7,4 @@ def lengthOfString(str):
     return count 
 
 str = input()
-lengthOfString(str)
+print(lengthOfString(str))
