@@ -1,6 +1,6 @@
-str = "Hello World! This is Python."
-count = 0
+def lengthOfString(str):
+    count = 0
+    return count 
 
-for i in str:
-    count+=1
-print(count)
+str = input()
+lengthOfString(str)
