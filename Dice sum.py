@@ -1,3 +1,5 @@
+'''Sum of number on two unbiased dice is equal to the given sum.'''
+
 def diceSum(s):
     count = 0
     for i in range(1, 7):
