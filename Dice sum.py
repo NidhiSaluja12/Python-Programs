@@ -1,4 +1,4 @@
-'''Sum of number on two unbiased dice is equal to the given sum.'''
+#Sum of number on two unbiased dice is equal to the given sum.
 
 def diceSum(s):
     count = 0
