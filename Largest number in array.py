@@ -1,3 +1,5 @@
+# Largest number and position of largest number in the array.
+
 def largestNumber(arr):
     largest = arr[0]
     index = 0
