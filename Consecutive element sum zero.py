@@ -5,6 +5,7 @@ def sumZero(array, size):
     for i in range(size):
         if array[i] == 0:
             count += 1
+            
         for j in range(i + 1, size):
             if array[i] + array[j] == 0:
                 count += 1
