@@ -1,3 +1,5 @@
+# 32 25 26 5 15 Output = 41
+
 def leader(arr):
     sum = 0
     for i in range(len(arr)-1):
