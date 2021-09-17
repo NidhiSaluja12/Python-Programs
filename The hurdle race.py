@@ -1,5 +1,3 @@
-#!/bin/python3
-
 import math
 import os
 import random
@@ -9,6 +7,7 @@ import sys
 
 def hurdleRace(k, height):
     max1 = max(height)
+    
     if max1-k <= 0 :
         return 0
     else:
