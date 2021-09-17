@@ -1,4 +1,4 @@
-# 32 25 26 5 15 Output = 41
+#Input = 32 25 26 5 15 ; Output = 41
 
 def leader(arr):
     sum = 0
