@@ -1,5 +1,3 @@
-#!/bin/python3
-
 import math
 import os
 import random
@@ -8,9 +6,12 @@ import sys
 
 
 def aVeryBigSum(ar):
+    
     sum1 = 0
+    
     for i in ar:
         sum1+=i
+        
     return (sum1)
   
 
