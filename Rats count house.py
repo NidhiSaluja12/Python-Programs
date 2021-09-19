@@ -1,7 +1,9 @@
 def ratCountHouse(rats, unit, array, size):
+    
     output = 0
     totalFoodRequired = rats * unit
     foodTillNow = 0
+    
     if size == 0:
         return -1
 
