@@ -3,7 +3,6 @@ def staircase(n):
         res=' '*(n-i)+ '#'*i
         print(res)
         
-  
 
 if __name__ == '__main__':
     n = int(input().strip())
