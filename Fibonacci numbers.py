@@ -5,7 +5,7 @@ def fibonacci(n):
         return 1
     return fibonacci(n-1)+fibonacci(n-2)
 
-# Write 
+
 
 n = int(input())
 print(fibonacci(n))
