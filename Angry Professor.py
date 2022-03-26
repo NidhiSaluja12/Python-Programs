@@ -4,7 +4,6 @@ import random
 import re
 import sys
 
-
 def angryProfessor(k, a):
     
     arrival_on_time = 0
