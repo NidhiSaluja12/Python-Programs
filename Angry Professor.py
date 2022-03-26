@@ -18,8 +18,7 @@ def angryProfessor(k, a):
     if arrival_on_time < k:
         return "YES"
     else:
-        return "NO"
-    
+        return "NO"  
    
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
