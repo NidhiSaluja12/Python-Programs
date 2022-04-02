@@ -4,6 +4,7 @@ import random
 import re
 import sys
 
+
 def findDigits(n):
     count = 0
     for i in str(n):
