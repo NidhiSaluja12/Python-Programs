@@ -18,7 +18,6 @@ def Fibonacci_Number(n):
             F2 = F
         return F2
     
-
 n = int(input("Enter the position:\n"))
 print(f"The fibonacci number at position {n} is:")
 print(Fibonacci_Number(n))
