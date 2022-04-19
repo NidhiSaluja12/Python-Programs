@@ -10,6 +10,5 @@ def diceSum(s):
         return count
     else:
         return 0
-
 s = int(input())
 print(diceSum(s))
