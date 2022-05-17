@@ -13,6 +13,7 @@ def birthdayCakeCandles(candles):
             count = 1
         elif number==max1:
             count+=1
+
     return count
 
  
