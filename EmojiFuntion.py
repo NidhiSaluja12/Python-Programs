@@ -4,7 +4,6 @@ emojis = {
     ":)":"😃",
     ":(":"😞"
 
-
 }
 output=' '
 for word in words:
