@@ -14,6 +14,7 @@ def birthdayCakeCandles(candles):
         elif number==max1:
             count+=1
 
+
     return count
  
 if __name__ == '__main__':
