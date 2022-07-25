@@ -19,7 +19,6 @@ def angryProfessor(k, a):
         return "YES"
     else:
         return "NO"  
-
    
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
