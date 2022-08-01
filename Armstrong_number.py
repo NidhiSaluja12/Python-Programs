@@ -3,6 +3,7 @@ order = len(str(number))                                         # Number of dig
 sum = 0
 
 
+
 copy_of_number = number                                          # num will become 0 after while loop so copy should be made
 while (number > 0):
     digits = number % 10                                         # 153%10 = 3 ; 15%10 = 5 ; 1%10 = 1
