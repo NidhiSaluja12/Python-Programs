@@ -4,6 +4,7 @@ import random
 import re
 import sys
 
+
 def birthdayCakeCandles(candles):
     count = 0
     max1 = candles[0]
