@@ -7,7 +7,6 @@ import sys
 
 
 
-
 def breakingRecords(scores):
     dMost = scores[0]
     dLeast = scores[0]
