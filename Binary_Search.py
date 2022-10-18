@@ -1,7 +1,8 @@
 # to implement binary search, array should be sorted.
 def Binary_search(item, list1):
     
-    lower_bound = 0
+ 
+   lower_bound = 0
     upper_bound = len(list1) - 1
     middle_index = 0
 
